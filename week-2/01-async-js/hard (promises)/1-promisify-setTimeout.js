@@ -3,4 +3,9 @@
 */
 
 function wait(n) {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(`After ${n / 1000} seconds`), n);
+  });
 }
+
+wait(5000).then((result) => console.log(result));

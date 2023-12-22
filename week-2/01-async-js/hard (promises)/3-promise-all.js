@@ -4,19 +4,10 @@
  * Print how long it took for all 3 promises to resolve.
  */
 
+function waitOneSecond() {}
 
-function waitOneSecond() {
+function waitTwoSecond() {}
 
-}
+function waitThreeSecond() {}
 
-function waitTwoSecond() {
-
-}
-
-function waitThreeSecond() {
-
-}
-
-function calculateTime() {
-
-}
+function calculateTime() {}
